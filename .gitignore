@@ -1,0 +1,9 @@
+bin/
+obj/
+artifacts/
+tmp/
+.vs/
+*.user
+
+# Pet artwork stays on this computer and is never committed to the public repository.
+src/QuotaPet.App/Assets/*.png

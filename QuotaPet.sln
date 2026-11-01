@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{73B13BD9-7AAD-48E9-A0B2-A795DFC18B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotaPet.Core", "src\QuotaPet.Core\QuotaPet.Core.csproj", "{BC1EE17D-4B92-4653-85D3-A946BF2E87A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{58B7EDE8-C1F1-404A-AC70-455364C4DB67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotaPet.Core.Tests", "tests\QuotaPet.Core.Tests\QuotaPet.Core.Tests.csproj", "{27BD586E-9A89-4FB8-944D-43BF2D9B2BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotaPet.App", "src\QuotaPet.App\QuotaPet.App.csproj", "{9DB59A3D-0548-47F9-B473-7B9774CC15D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotaPet.App.Tests", "tests\QuotaPet.App.Tests\QuotaPet.App.Tests.csproj", "{78EFA4D4-CCFF-4DCC-9641-21CB82706F38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1EE17D-4B92-4653-85D3-A946BF2E87A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1EE17D-4B92-4653-85D3-A946BF2E87A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1EE17D-4B92-4653-85D3-A946BF2E87A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1EE17D-4B92-4653-85D3-A946BF2E87A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BD586E-9A89-4FB8-944D-43BF2D9B2BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BD586E-9A89-4FB8-944D-43BF2D9B2BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BD586E-9A89-4FB8-944D-43BF2D9B2BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BD586E-9A89-4FB8-944D-43BF2D9B2BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB59A3D-0548-47F9-B473-7B9774CC15D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB59A3D-0548-47F9-B473-7B9774CC15D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB59A3D-0548-47F9-B473-7B9774CC15D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB59A3D-0548-47F9-B473-7B9774CC15D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EFA4D4-CCFF-4DCC-9641-21CB82706F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EFA4D4-CCFF-4DCC-9641-21CB82706F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EFA4D4-CCFF-4DCC-9641-21CB82706F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EFA4D4-CCFF-4DCC-9641-21CB82706F38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC1EE17D-4B92-4653-85D3-A946BF2E87A1} = {73B13BD9-7AAD-48E9-A0B2-A795DFC18B51}
+		{27BD586E-9A89-4FB8-944D-43BF2D9B2BCE} = {58B7EDE8-C1F1-404A-AC70-455364C4DB67}
+		{9DB59A3D-0548-47F9-B473-7B9774CC15D8} = {73B13BD9-7AAD-48E9-A0B2-A795DFC18B51}
+		{78EFA4D4-CCFF-4DCC-9641-21CB82706F38} = {58B7EDE8-C1F1-404A-AC70-455364C4DB67}
+	EndGlobalSection
+EndGlobal
