@@ -5,5 +5,16 @@ tmp/
 .vs/
 *.user
 
+# Local credentials and runtime data
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.snk
+*.kdbx
+settings.json
+
 # Pet artwork stays on this computer and is never committed to the public repository.
 src/QuotaPet.App/Assets/*.png
